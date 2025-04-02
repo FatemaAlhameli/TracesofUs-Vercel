@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Handlee&family=Pinyon+Script&family=Special+Elite&display=swap');
+@font-face {
+    font-family: 'AmiriTypewriter-Regular';
+    src: url(/media/AmiriTypewriter-Regular.ttf);
+}
+
+body{
+    background-color: #e3d9d0;
+    background-image: url('/media/background.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.title{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.english-title{
+    font-family: "Special Elite", system-ui;
+}
+
+.arabic-title{
+    font-family: 'AmiriTypewriter-Regular';
+}
+
+.prompt{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Special Elite", system-ui;
+    font-style: italic;
+  
+}
+
+/* #prompt2{
+    font-size: 18px;
+} */
+
+#uploadForm {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center; 
+  }
+
+#photoInput {
+    display: none;
+}
+
+.custom-file-label {
+    background-color: black;
+    color: white;
+    /* border: 1px solid black; */
+    padding: 12px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.custom-file-label:hover {
+    background-color: white;
+    color: black;
+}
+
+.file-name {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+
+#button{
+    background-color: black;
+    color: white;
+    font-family: "Special Elite", system-ui;
+    padding: 12px 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    /* border: 1px solid black; */
+    border: none;
+    width: 85px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.upload-section{
+    font-family: "Special Elite", system-ui;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+#photoInput{
+    font-family: "Special Elite", system-ui;
+}
+
+#preview{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .upload-section {
+      width: 95%; 
+      padding: 20px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Traces of Us - أثرنا</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="media/icon.png">
+
+</head>
+<body>
+  <h1 class="title">
+    <span class="english-title">Traces of Us - </span> 
+    <span class="arabic-title">أثـرنـا</span>
+  </h1>
+  <div class="prompt">
+    <p>Every photo holds a memory. Share an image that carries meaning—family, friends, culture, a place, or a tradition. Your memory will be printed live.</p>
+    <p id="prompt2">Once printed, please hang your photo on the mirror to grow our collection of memories.</p>
+  </div>
+  <div class="upload-section">
+      <h1>Upload Your Photo</h1>
+      <form id="uploadForm" enctype="multipart/form-data">
+        <label for="photoInput" class="custom-file-label">Choose File</label>
+        <input type="file" name="photo" id="photoInput" accept="image/*" required>
+        <img id="preview" src="#" alt="Photo Preview" style="display:none; max-width: 300px;">
+        <button type="submit" id="button">Print</button>
+      </form>
+  </div>
+
+  
+ 
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</body>
+</html>
